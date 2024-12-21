@@ -1,0 +1,18 @@
+{
+    "python.pythonPath": "C:\\Users\\maxi\\anaconda3\\envs\\NVEmbedv2",
+    "configurations": [
+        {
+            "type": "debugpy",
+            "request": "launch",
+            "name": "Launch chat_service.py",
+            "program": "${workspaceFolder}/chat_service.py",
+            "args": [
+                "--host",
+                "127.0.0.1",
+                "--port",
+                "8000",
+                "--reload"
+            ]
+        }
+    ]
+}
